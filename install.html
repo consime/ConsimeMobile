@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Instalar Consime Mobile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 50px;
+      color: #333;
+    }
+    .info {
+      margin-top: 30px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Instalando o Consime Mobile iOS</h2>
+  <p class="info">O download será iniciado automaticamente.<br>
+     Se isso não acontecer, certifique-se de estar usando o <strong>Safari no iPhone</strong>.</p>
+
+  <script>
+    window.location.href = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/consime/ConsimeMobile/main/ConsimeMobilemanifest.plist";
+  </script>
+</body>
+</html>
